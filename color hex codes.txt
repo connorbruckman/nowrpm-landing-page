@@ -1,0 +1,14 @@
+Dark blue
+051440
+
+Deep pink
+eb1c53
+
+Light blue
+025dab
+
+black
+171717
+
+Light Pink
+ed658a
