@@ -17,11 +17,11 @@
 
 #learn-more {
    background-color: #051440;
-   background: url(../images/background_img_1.png) no-repeat center center;
+   background: url(../images/background_img_1.png) no-repeat center center local;
 }
 
 #devices {
-  background: url(../images/background_img_2.png) no-repeat center center;
+  background: url(../images/background_img_2.png) no-repeat center center local;
 }
 
 /* Font stuff */
@@ -44,10 +44,6 @@ a, h2, h3, h4, h5, h6, body, em {
 
 .copyright-text {
   color: #8f8f8f;
-  font-size: 1rem;
-  font-weight: 500;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 /* Margin and padding stuff */
@@ -58,10 +54,6 @@ a, h2, h3, h4, h5, h6, body, em {
 
 .margin-auto-center-vert {
   margin: 0 auto 0 auto;
-}
-
-.margin-auto-center-hori {
-  margin: auto 0 auto 0;
 }
 
 .padding-80px {
