@@ -17,6 +17,10 @@
 
   <!-- FontAwesome Icons -->
   <script src="https://kit.fontawesome.com/dce0067cda.js" crossorigin="anonymous"></script>
+
+  <!-- reCaptcha API link, needs a key before it'll function -->
+  <!-- <script src="https://www.google.com/recaptcha/api.js? KEY GOES HERE "></script> -->
+
 </head>
 
 <body style="background-color: #ecf3f9">
@@ -46,19 +50,23 @@
         <!-- Title -->
         <div class="row padding-80px justify-content-lg-start">
           <div class="row padding-bottom-40px margin-auto-center-vert">
+
             <div class="col-lg-5 col-12 margin-auto-center-vert">
               <h2><strong>Your health, made simple.</strong></h2>
               <div class="separator"></div>
               <h3 class="">NowRPM is a health and wellness program, engineered for the modern era. Stay in constant communication with your care providers, have access to high-fidelity, real-time health data, and reduce
                 readmissions. All devices are at <em><u>no cost</u></em> to Medicare patients, and come ready to use out of the box -- no setup, smartphone, apps, or WiFi required.</h3>
             </div>
-            <div class="col-lg-4 col-12 margin-auto video-responsive text-center">
+
+            <div class="col-lg-5 col-12 margin-auto video-responsive text-center">
               <!-- Placeholder link for that video that Jim Ray's putting together. Also a fantastic jazz fusion album. -->
               <iframe class="embed-responsive-item" width="640" height="360" src="https://www.youtube.com/embed/p5czaHiSPLg" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+
           </div>
         </div>
+
       </div>
     </div>
     </div>
@@ -75,9 +83,9 @@
             <h3><em><strong>What is NowRPM?</strong></em></h3>
             <div class="separator-center"></div>
             <h4>NowRPM enables continuous patient monitoring, breaking the episodic care paradigm. Receive a full suite of smart devices, designed to help you achieve your health goals.</h4>
-              <h6>Receive 24/7, one-on-one consultation from trained medical professionals.</h6>
-              <h6>Get automated medication reminders by phone and text.</h6>
-              <h6>Totally free shipping in the contiguous United States.</h6>
+            <h6>Receive 24/7, one-on-one consultation from trained medical professionals.</h6>
+            <h6>Get automated medication reminders by phone and text.</h6>
+            <h6>Totally free shipping in the contiguous United States.</h6>
           </div>
         </div>
 
@@ -89,7 +97,7 @@
           <div id="carouselExampleControls" class="carousel slide col-12" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <h4 class="text-center"><strong>Samsung Tablet:</strong><br>The base of operations for every NowRPM kit. See your past readings, and trigger new ones.</h4>
+                <h4 class="text-center"><strong>Samsung Tablet:</strong><br>The base of operations for every NowRPM kit. See your past readings, and trigger new ones. No WiFi required.</h4>
                 <br>
                 <img src="images/01_tablet_transparent.png" class="d-block device-img" alt="image">
               </div>
@@ -104,7 +112,7 @@
                 <img src="images/03_watch_transparent.png" class="d-block device-img" alt="image">
               </div>
               <div class="carousel-item">
-                <h4 class="text-center"><strong>True Metrix Glucometer:</strong><br>Qualifying diabetic and pre-diabetic patients can receive a smart blood glucose meter, in addition to the other devices.</h4>
+                <h4 class="text-center"><strong>True Metrix Air Glucometer:</strong><br>Qualifying diabetic and pre-diabetic patients can receive a smart blood glucose meter, in addition to the other devices.</h4>
                 <br>
                 <img src="images/04_gluco_transparent.png" class="d-block device-img" alt="image">
               </div>
@@ -136,28 +144,28 @@
         <row class="row col-lg-12">
           <div class="text-center col-lg-6 col-md-12 col-sm-12">
             <h3><em>"My devices help me to keep an eye on my health, and the text alerts help me keep up on my blood sugar levels."</em></h3>
-              <img class="testimonial-img" src="images/man_img_1.jfif" alt="man-profile-1">
-              <em>Daniel, New York</em>
+            <img class="testimonial-img" src="images/man_img_2.jfif" alt="man-profile-1">
+            <em>Daniel, New York</em>
           </div>
           <br>
           <div class="text-center col-lg-6 col-md-12 col-sm-12">
             <h3><em>"NowRPM has improved my patients' health goal adherence significantly, and keeps them motivated to see their goals through."</em></h3>
-              <img class="testimonial-img" src="images/woman_img_2.jfif" alt="woman-profile-1">
-              <em>Beverly, Illinois</em>
+            <img class="testimonial-img" src="images/woman_img_2.jfif" alt="woman-profile-1">
+            <em>Beverly, Illinois</em>
           </div>
         </row>
 
         <row class="row col-lg-12">
           <div class="text-center col-lg-6 col-md-12 col-sm-12">
             <h3><em>"Having all this information at my fingertips helps me make better health decisions. I love the look of the smart watch, too!"</em></h3>
-              <img class="testimonial-img" src="images/woman_img_1.jfif" alt="woman-profile-1">
-              <em>Mary, Indiana</em>
+            <img class="testimonial-img" src="images/woman_img_1.jfif" alt="woman-profile-1">
+            <em>Mary, Indiana</em>
           </div>
           <br>
           <div class="text-center col-lg-6 col-md-12 col-sm-12">
             <h3><em>"NowRPM helped my father find out he had hypertension before it became a more serious problem."</em></h3>
-              <img class="testimonial-img" src="images/man_img_2.jfif" alt="man-profile-2">
-              <em>Matthew, Florida</em>
+            <img class="testimonial-img" src="images/man_img_1.jfif" alt="man-profile-2">
+            <em>Matthew, Florida</em>
           </div>
         </row>
       </div>
@@ -173,13 +181,13 @@
           <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
             <div class="card-body p-4 p-md-5">
               <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Learn more about NowRPM</h3>
-              <form>
+              <form action="mailto:connor@softbir.com" method="post" enctype="text/plain">
 
                 <div class="row">
                   <div class="col-md-6 mb-4">
 
                     <div class="form-outline">
-                      <input type="text" id="firstName" class="form-control form-control-lg" />
+                      <input type="text" id="firstName" class="form-control form-control-lg" placeholder="Johnathan" name="firstName" />
                       <label class="form-label" for="firstName">First Name</label>
                     </div>
 
@@ -187,7 +195,7 @@
                   <div class="col-md-6 mb-4">
 
                     <div class="form-outline">
-                      <input type="text" id="lastName" class="form-control form-control-lg" />
+                      <input type="text" id="lastName" class="form-control form-control-lg" placeholder="Doe" name="lastName" />
                       <label class="form-label" for="lastName">Last Name</label>
                     </div>
 
@@ -198,7 +206,7 @@
                   <div class="col-md-6 mb-4 d-flex align-items-center">
 
                     <div class="form-outline datepicker w-100">
-                      <input type="text" class="form-control form-control-lg" id="birthdayDate" />
+                      <input type="text" class="form-control form-control-lg" id="birthdayDate" name="birthDate" placeholder="01/01/1900" />
                       <label for="birthdayDate" class="form-label">Birthday</label>
                     </div>
 
@@ -208,17 +216,17 @@
                     <h6 class="mb-2 pb-1">Gender: </h6>
 
                     <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender" value="option1" checked />
+                      <input class="form-check-input" type="radio" name="gender" id="femaleGender" value="Female" checked />
                       <label class="form-check-label" for="femaleGender">Female</label>
                     </div>
 
                     <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender" value="option2" />
+                      <input class="form-check-input" type="radio" name="gender" id="maleGender" value="Male" />
                       <label class="form-check-label" for="maleGender">Male</label>
                     </div>
 
                     <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender" value="option3" />
+                      <input class="form-check-input" type="radio" name="gender" id="otherGender" value="Other" />
                       <label class="form-check-label" for="otherGender">Other</label>
                     </div>
 
@@ -229,7 +237,7 @@
                   <div class="col-md-6 mb-4 pb-2">
 
                     <div class="form-outline">
-                      <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                      <input type="email" id="emailAddress" class="form-control form-control-lg" placeholder="johndoe@gmail.com" name="emailAddress" />
                       <label class="form-label" for="emailAddress">Email</label>
                     </div>
 
@@ -237,29 +245,37 @@
                   <div class="col-md-6 mb-4 pb-2">
 
                     <div class="form-outline">
-                      <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                      <input type="tel" id="phoneNumber" class="form-control form-control-lg" placeholder="(555) 555-5555" name="phoneNumber" />
                       <label class="form-label" for="phoneNumber">Phone Number</label>
                     </div>
 
                   </div>
-                </div>
 
-                <div class="col-md-6 mb-4">
 
-                  <h6 class="mb-2 pb-1">I give my consent to be contacted by a NowRPM representative</h6>
+                  <div class="col-md-6 mb-4">
 
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender" value="option1" checked />
-                    <label class="form-check-label" for="femaleGender">Yes</label>
+                    <h6 class="mb-2 pb-1">I give my consent to be contacted by a NowRPM representative</h6>
+
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="contactConsent" id="femaleGender" value="Yes" checked />
+                      <label class="form-check-label" for="femaleGender">Yes</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="contactConsent" id="maleGender" value="No" />
+                      <label class="form-check-label" for="maleGender">No</label>
+                    </div>
+
                   </div>
 
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender" value="option2" />
-                    <label class="form-check-label" for="maleGender">No</label>
+                  <div class="col-md-6 mb-4">
+
+                    <h6 class="mb-2 pb-1">A reCaptcha will go in this div, once I grow a larger brain.</h6>
+                    <button class="g-recaptcha" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>Submit</button>
+
                   </div>
 
                 </div>
-
 
                 <div class="mt-4 pt-2">
                   <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
