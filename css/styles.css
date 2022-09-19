@@ -9,6 +9,11 @@
   text-align: center;
 }
 
+#testimonials {
+  background-color: #025dab;
+  color: #fcfcfc;
+  z-index: 100;
+}
 
 #learn-more {
    background-color: #051440;
@@ -17,18 +22,6 @@
 
 #devices {
   background: url(../images/background_img_2.png) no-repeat center center fixed;
-}
-
-.devices-body {
-  text-align: center;
-  max-width: 550px;
-  height: 40%;
-}
-
-.devices-text {
-  text-align: center;
-  max-width: 550px;
-  height: 40%;
 }
 
 /* Font stuff */
@@ -63,6 +56,14 @@ a, h2, h3, h4, h5, h6, body, em {
   margin: auto;
 }
 
+.margin-auto-center-vert {
+  margin: 0 auto 0 auto;
+}
+
+.margin-auto-center-hori {
+  margin: auto 0 auto 0;
+}
+
 .padding-80px {
   padding-bottom: 40px;
   padding-top: 40px;
@@ -80,11 +81,11 @@ a, h2, h3, h4, h5, h6, body, em {
 
 .testimonial-margin {
   margin: auto;
-  width: 70%;
+  width: 85%;
   padding: 20px;
 }
 
-/* A class to make the images circular. Images can be pre-cropped to remove this class. */
+/* Two classes to make the images circular. Images can be pre-cropped to remove these classes. */
 .testimonial-img {
   border-radius: 100%;
   width: 60px;
@@ -94,6 +95,10 @@ a, h2, h3, h4, h5, h6, body, em {
 .background-img {
   width: 100%;
   position: absolute;
+}
+
+.device-img {
+  max-width: 100%;
 }
 
 /* This is for video resizing on mobile and tablet devices */
@@ -119,10 +124,6 @@ a, h2, h3, h4, h5, h6, body, em {
 
 .body-container {
   margin-bottom: 40px;
-}
-
-.testimonial-body {
-  width: 500px;
 }
 
 .separator {
