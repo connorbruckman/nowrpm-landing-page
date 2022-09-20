@@ -27,10 +27,15 @@
 /* Font stuff */
 a, h1, h2, h3, h4, h5, h6, body, em {
   font-family: 'Montserrat';
+}
+
+.bold-text {
   font-weight: bolder;
 }
 
-
+.light-blue-text {
+  color: #b3d3f2;
+}
 
 /* Navbar stuff */
 
@@ -72,6 +77,14 @@ a, h1, h2, h3, h4, h5, h6, body, em {
   padding-bottom: 40px;
 }
 
+.navbar-button-margin-12px {
+  margin-right: 12px;
+}
+
+.logo-margin-12px {
+  margin-left: 12px;
+}
+
 /* Fixes a small visual bug where the 'Learn More' button would throw off the margins of the other navbar items */
 .padding-7px-top {
   padding-top: 7px;
@@ -80,9 +93,7 @@ a, h1, h2, h3, h4, h5, h6, body, em {
 /* Generic class to force centering in cases where it's needed. */
 
 .testimonial-margin {
-  margin: auto;
-  width: 70%;
-
+  width: 80%;
 }
 
 /* Two classes to make the images circular. Images can be pre-cropped to remove these classes. */
@@ -99,6 +110,11 @@ a, h1, h2, h3, h4, h5, h6, body, em {
 
 .device-img {
   max-width: 70%;
+}
+
+.accreditation-logo {
+  max-width: 100%;
+  align-self: center;
 }
 
 /* This is for video resizing on mobile and tablet devices */
@@ -135,7 +151,7 @@ a, h1, h2, h3, h4, h5, h6, body, em {
 
 .separator-center {
   height: 3px;
-  width: 30%;
+  width: 15%;
   background-color: #eb1c53;
   margin: 20px auto 20px auto;
 }

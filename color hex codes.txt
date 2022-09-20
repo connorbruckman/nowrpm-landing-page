@@ -4,8 +4,11 @@ Dark blue
 Deep pink
 eb1c53
 
-Light blue
+Medium blue
 025dab
+
+Light blue
+b3d3f2
 
 black
 171717
