@@ -27,8 +27,10 @@
 /* Font stuff */
 a, h1, h2, h3, h4, h5, h6, body, em {
   font-family: 'Montserrat';
-  font-weight: 500;
+  font-weight: bolder;
 }
+
+
 
 /* Navbar stuff */
 
@@ -79,8 +81,8 @@ a, h1, h2, h3, h4, h5, h6, body, em {
 
 .testimonial-margin {
   margin: auto;
-  width: 85%;
-  padding: 20px;
+  width: 70%;
+
 }
 
 /* Two classes to make the images circular. Images can be pre-cropped to remove these classes. */
