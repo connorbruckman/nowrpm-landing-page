@@ -25,8 +25,9 @@
 }
 
 /* Font stuff */
-a, h2, h3, h4, h5, h6, body, em {
+a, h1, h2, h3, h4, h5, h6, body, em {
   font-family: 'Montserrat';
+  font-weight: 500;
 }
 
 /* Navbar stuff */
@@ -69,6 +70,11 @@ a, h2, h3, h4, h5, h6, body, em {
   padding-bottom: 40px;
 }
 
+/* Fixes a small visual bug where the 'Learn More' button would throw off the margins of the other navbar items */
+.padding-7px-top {
+  padding-top: 7px;
+}
+
 /* Generic class to force centering in cases where it's needed. */
 
 .testimonial-margin {
@@ -90,7 +96,7 @@ a, h2, h3, h4, h5, h6, body, em {
 }
 
 .device-img {
-  max-width: 100%;
+  max-width: 70%;
 }
 
 /* This is for video resizing on mobile and tablet devices */
