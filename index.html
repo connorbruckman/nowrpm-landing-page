@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <title>NowRPM Landing Page Example</title>
 
-  <!-- Bootstrap Scriptz-->
+  <!-- Bootstrap script-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 
-  <!-- CSS Stylesheets-->
+  <!-- CSS stylesheets, for Bootstrap and styles.css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
@@ -17,6 +17,8 @@
 
   <!-- FontAwesome Icons -->
   <script src="https://kit.fontawesome.com/dce0067cda.js" crossorigin="anonymous"></script>
+
+  <!-- jQuery script link -->
 
   <!-- reCaptcha API link, needs a key before it'll function -->
   <!-- <script src="https://www.google.com/recaptcha/api.js? KEY GOES HERE "></script> -->
@@ -27,7 +29,7 @@
   <section class="" id="title">
     <div class="container-fluid">
       <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav-style">
           <a class="navbar-brand logo-margin-12px" href=""><img class="logo" src="images/nowrpm_logo_1.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -52,8 +54,10 @@
           <div class="col-lg-6 col-12 margin-auto-center-vert">
             <h1 class="bold-text light-blue-text"><strong>Your health, made simple.</strong></h1>
             <div class="separator"></div>
-            <h3 class="bold-text">NowRPM is a health and wellness program, engineered for the modern era. Stay in constant communication with your care providers, have access to high-fidelity, real-time health data, and reduce
+
+            <h3 class="bold-text margin">NowRPM is a health and wellness program, engineered for the modern era. Stay in constant communication with your care providers, have access to high-fidelity, real-time health data, and reduce
               readmissions. All devices are at <em><u>no cost</u></em> to Medicare patients, and come ready to use out of the box -- no setup, smartphone, apps, or WiFi required.</h3>
+
           </div>
 
           <div class="col-lg-6 col-12 margin-auto video-responsive text-center">
@@ -78,8 +82,10 @@
           <div>
             <h2 class="text-center"><em><strong>What is NowRPM?</strong></em></h2>
             <div class="separator-center"></div>
-            <h3 class="bold-text">NowRPM enables continuous patient monitoring, breaking the episodic care paradigm. Receive a full suite of smart devices, designed to help you achieve your health goals.</h3>
+            <h3 class="bold-text logo-margin-12px">NowRPM enables continuous patient monitoring, breaking the episodic care paradigm. Receive a full suite of smart devices, designed to help you achieve your health goals.</h3>
             <br>
+
+            <!-- List of features -->
             <div class="col-10 margin-auto padding-top-40px">
               <h5>
                 <li class="bold-text">Turn-key setup -- all included devices come ready to use out of the box.</li>
@@ -97,6 +103,7 @@
                 <li class="bold-text"><u>Totally free shipping</u> in the contiguous United States.</li>
               </h5>
 
+              <!-- Accreditation logos -->
               <row class="row padding-80px text-center">
                 <div class="col-3 margin-auto text-center">
                   <img src="images/pharmaneek_logo.png" class="accreditation-logo margin-auto" alt="">
@@ -116,7 +123,7 @@
         </div>
 
 
-
+        <!-- Device display carousel, written without JS because I have a small brain -->
         <div class="col-lg-6 col-12 padding-40px-top padding-40px-bottom">
           <div>
             <h2 class="text-center"><em><strong>What comes in the box?</strong></em></h2>
@@ -161,42 +168,54 @@
         </div>
       </div>
     </div>
-
-
     </div>
-
-
   </section>
-  <!-- Testimonials -->
 
+  <!-- Testimonials, courtesy of thispersondoesnotexist.com -->
   <section id="testimonials">
 
     <div class="container-fluid padding-80px testimonial-margin">
       <row class="row col-lg-12 margin-auto">
+        <!-- Patient testimony 1 -->
         <div class="text-center col-lg-6 col-md-12 col-sm-12">
           <h3><em>"My devices help me to keep an eye on my health, and the text alerts help me keep up on my blood sugar levels."</em></h3>
-          <img class="testimonial-img" src="images/man_img_2.jfif" alt="man-profile-1">
-          <em>Daniel, New York</em>
+          <div>
+            <img class="testimonial-img" src="images/man_img_2.jfif" alt="man-profile-1">
+            <em>Daniel, New York</em>
+          </div>
         </div>
+
         <br>
+
+        <!-- Doctor testimony -->
         <div class="text-center col-lg-6 col-md-12 col-sm-12">
           <h3><em>"NowRPM has improved my patients' health goal adherence significantly, and keeps them motivated to see their goals through."</em></h3>
-          <img class="testimonial-img" src="images/woman_img_2.jfif" alt="woman-profile-1">
-          <em>Beverly, Illinois</em>
+          <div>
+            <img class="testimonial-img" src="images/woman_img_2.jfif" alt="woman-profile-1">
+            <em>Beverly, Illinois</em>
+          </div>
         </div>
       </row>
 
       <row class="row col-lg-12 margin-auto">
+        <!-- Patient testimony 2 -->
         <div class="text-center col-lg-6 col-md-12 col-sm-12">
           <h3><em>"Having all this information at my fingertips helps me make better health decisions. I love the look of the smart watch, too!"</em></h3>
-          <img class="testimonial-img" src="images/woman_img_1.jfif" alt="woman-profile-1">
-          <em>Mary, Indiana</em>
+          <div>
+            <img class="testimonial-img" src="images/woman_img_1.jfif" alt="woman-profile-1">
+            <em>Mary, Indiana</em>
+          </div>
         </div>
+
         <br>
+
+        <!-- Loved one on behalf of patient testimony -->
         <div class="text-center col-lg-6 col-md-12 col-sm-12">
           <h3><em>"NowRPM helped my father find out he had hypertension before it became a more serious problem."</em></h3>
-          <img class="testimonial-img" src="images/man_img_1.jfif" alt="man-profile-2">
-          <em>Matthew, Florida</em>
+          <div>
+            <img class="testimonial-img" src="images/man_img_1.jfif" alt="man-profile-2">
+            <em>Matthew, Florida</em>
+          </div>
         </div>
       </row>
     </div>
@@ -328,6 +347,10 @@
     </div>
     <p class="copyright-text text-center">© Copyright 2022. Powered by Softbir Inc.</p>
   </footer>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link rel="" href="index.js">
 
 </body>
 
