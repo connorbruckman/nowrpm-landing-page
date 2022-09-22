@@ -1,7 +1,6 @@
 #title {
   background-color: #051440;
   color: #fcfcfc;
-  padding-top: 70px;
 }
 
 #footer {
@@ -45,7 +44,11 @@ a, h1, h2, h3, h4, h5, h6, body, em {
 }
 
 .nav-style {
-  background-color: #051440
+  background-color: #051440;
+}
+
+.btn-danger {
+  background-color: #eb1c53;
 }
 
 /* Footer Stuff. This stuff can easily be cut out and replaced with something more appropriate. */

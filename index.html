@@ -21,7 +21,8 @@
   <!-- jQuery script link -->
 
   <!-- reCaptcha API link, needs a key before it'll function -->
-  <!-- <script src="https://www.google.com/recaptcha/api.js? KEY GOES HERE "></script> -->
+  <!-- reCaptcha API key: 6Legs6ceAAAAAHUdJpApvhaxMpOZh6wgikR9s99d -->
+  <script id="g-recaptcha-api" async="async" defer="defer" src='https://www.google.com/recaptcha/api.js?onload=onLoadPPReCaptcha&#038;render=explicit&#038;hl=en&#038;ver=2.0' id='g-recaptcha-js'></script>
 
 </head>
 
@@ -29,7 +30,7 @@
   <section class="" id="title">
     <div class="container-fluid">
       <div class="row">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav-style">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark nav-style">
           <a class="navbar-brand logo-margin-12px" href=""><img class="logo" src="images/nowrpm_logo_1.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -319,11 +320,12 @@
                   </div>
 
                   <div class="col-md-6 mb-4">
-
-                    <h6 class="mb-2 pb-1">A reCaptcha will go in this div, once I grow a larger brain.</h6>
-                    <button class="g-recaptcha" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>Submit</button>
-
+                    <iframe title="reCAPTCHA"
+                      src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Legs6ceAAAAAHUdJpApvhaxMpOZh6wgikR9s99d&amp;co=aHR0cHM6Ly93d3cubm93cnBtLmNvbTo0NDM.&amp;hl=en&amp;v=zmiYzsHi8INTJBWt2QZC9aM5&amp;theme=light&amp;size=normal&amp;cb=kg5thtuq6eai"
+                      width="304" height="78" role="presentation" name="a-9g034ejmm6aj" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+                      data-dashlane-rid="d88ea6e74f8e0b88" data-dashlane-frameid="1167" data-form-type="other"></iframe>
                   </div>
+
 
                 </div>
 
@@ -347,10 +349,6 @@
     </div>
     <p class="copyright-text text-center">© Copyright 2022. Powered by Softbir Inc.</p>
   </footer>
-
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <link rel="" href="index.js">
 
 </body>
 
