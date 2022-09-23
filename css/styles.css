@@ -17,7 +17,7 @@
 
 #learn-more {
    background-color: #051440;
-   background: url(../images/background_img_1.png) no-repeat center center fixed;
+   background: url(../images/background_img_1.png) no-repeat center center;
 }
 
 #devices {
@@ -25,8 +25,77 @@
 }
 
 /* Font stuff */
-a, h1, h2, h3, h4, h5, h6, body, em {
+body {
   font-family: 'Montserrat';
+}
+
+/* General media query for handling text size and whatnot on mobile devices. */
+@media (max-width: 560px), screen and (orientation: portrait) {
+  h1 {
+    font-size: 5.75vw;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.75rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  em {
+    font-size: 1.5rem;
+  }
+
+  li {
+  font-size: 1.75rem;
+  }
+
+  label {
+    font-size: 1.25rem;
+  }
+
+  learn-more-label {
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 1.75rem;
+  }
+
+  .separator {
+    visibility: hidden;
+  }
+
+  /* Code for handling video resizing dynamically. 56.25 is not an arbitrary number, as it represents a 16:9 aspect ratio. */
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .video-responsive iframe {
+    margin-top: 40px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
 }
 
 .bold-text {
@@ -121,23 +190,6 @@ a, h1, h2, h3, h4, h5, h6, body, em {
   align-self: center;
 }
 
-/* This is for video resizing on mobile and tablet devices */
-@media screen and (max-width: 560px) {
-  .video-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-  }
-  .video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
-}
-
 .logo {
   width: 230px;
 }
@@ -146,7 +198,7 @@ a, h1, h2, h3, h4, h5, h6, body, em {
   margin-bottom: 40px;
 }
 
-.separator {
+.separator-left-align {
   height: 3px;
   width: 30%;
   background-color: #eb1c53;
